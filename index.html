@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="main-container">
+    <div class="middle-div">
+      <div class="QUESTION ">
+        <p><u>QUESTION 1 of 10</u></p>
+      </div>
+      <div class="welcome" id="time-up">
+        <h1>Welcome to quiz !</h1>
+        <p>You have only 10 seconds to answer a Question.</p>
+        <button id="start">Start</button>
+      </div>
+      <div id="timer">10</div>
+      <div class="ques1">
+        <p> (Q.1) Which Indian city is the capital of two states ?</p>
+      </div>
+      <div class="options">
+        <div class="mumbai wrong-ans options-design end-function " id="op1" >
+          MUMBAI
+        </div>
+        <div class="Chandigarh options-design end-function " id="op2">
+          CHANDIGARH
+        </div>
+        <div class="Chennai wrong-ans options-design end-function " id="op3" >
+          CHENNAI
+        </div>
+        <div class="Kolkata wrong-ans options-design end-function " id="op4" >
+          KOLKATA
+        </div>
+        <div class="NEXT">
+          NEXT
+        </div>
+      </div>
+      <div class="congratulation-msg">
+        <p> Congratulations Right Answer ! &#128165;</p>
+
+      </div>
+      <div class="wrong-ans-msg">
+        <p>Wrong Answer !
+          &#10060;</p>
+
+      </div>
+    </div>
+
+  </div>
+
+<script src="quiz.js"></script>
+
+</body>
+
+</html>
